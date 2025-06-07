@@ -11,6 +11,7 @@
       font-family: 'Arial', sans-serif;
       color: #fff;
       overflow: hidden;
+      background: radial-gradient(circle at top, #1a1a1a 0%, #000 100%);
     }
     .slider {
       position: fixed;
@@ -25,10 +26,10 @@
       position: absolute;
       width: 100%;
       height: 100%;
-      background-size: cover;
+      background-size: contain;
       background-repeat: no-repeat;
       background-position: center center;
-      filter: brightness(0.65);
+      filter: brightness(0.55);
       animation: fade 30s infinite;
     }
     .slide:nth-child(1) { background-image: url('IMG_2729.JPG'); animation-delay: 0s; }
